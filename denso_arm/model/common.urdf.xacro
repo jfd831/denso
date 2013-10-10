@@ -1,0 +1,33 @@
+<robot include-once="true" xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:property name="PI" value="3.1415926535897931" />
+
+  <material name="denso_white">
+    <color rgba="1.0 1.0 1.0 1"/>
+  </material>
+
+  <material name="denso_light_gray">
+    <color rgba="0.8 0.8 0.8 1"/>
+  </material>
+
+  <material name="denso_med_gray">
+    <color rgba="0.6 0.6 0.6 1"/>
+  </material>
+
+  <material name="denso_dark_gray">
+    <color rgba="0.4 0.4 0.4 1"/>
+  </material>
+
+  <material name="denso_red">
+    <color rgba="0.5 0.4 0.4 1"/>
+  </material>
+
+  <material name="denso_green">
+    <color rgba="0.4 0.5 0.4 1"/>
+  </material>
+
+  <material name="denso_blue">
+    <color rgba="0.4 0.4 0.5 1"/>
+  </material>
+</robot>
+
+
